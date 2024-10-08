@@ -1,0 +1,63 @@
+.container{
+    display: grid;
+    padding: 10px ;
+    margin: 5;
+    border: 2px solid black;
+    grid: 1;
+    
+}
+
+.container2{
+    padding: 10px ;
+    margin: 20;
+    border: 0.5px solid black; 
+    background-color: rgb(238, 195, 87);
+    text-align: center;
+    width: 479px;
+    height: auto;
+}
+.container3, .container8, .container9{
+    display: grid;
+    padding: 10px ;
+    margin: 10;
+    border: 0.5px solid black;
+    grid-template-columns: 125px 100px; /*organizes the grids in column form*/
+
+}
+
+.name, .pass, .games, .Gender, .age, .photo{
+    padding: 10px ;
+    margin: 10;
+    border: 0.5px solid black; 
+    background-color: rgb(100, 100, 228); 
+    height: auto;
+    width: 100px;
+    grid-template-columns: 125px 100px;
+    
+}
+
+.blue1, .blue2, .blue3 , .blue4, .blue5, .blue6, .blue7{
+    padding: 10px ;
+    border: 0.5px solid black;
+    background-color: rgb(100, 100, 228);
+    height: auto;
+    width: 330px;
+}
+   
+.container4, .container5, .container6, .container7, .container10{
+    display: grid;
+    padding: 10px ;
+    margin: 10;
+    border: 0.5px solid black; 
+    grid-template-columns: 125px 100px;
+}
+.blue8{
+    padding: 10px;
+    border: 0.5px solid black;
+    height: auto;
+    width: 330px;
+}
+
+
+
+
